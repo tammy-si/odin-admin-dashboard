@@ -33,7 +33,7 @@ header {
     grid-column: 2/3;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    padding: 20px;
+    padding: 10px 20px;
     box-shadow: 1px 1px 6px #888888;
     align-items: center;
     background-color: white;
@@ -42,6 +42,9 @@ header {
 .main-content {
     display: grid;
     grid-template-columns: 4fr 1fr;
+    font-size: 10pt;
+    padding: 0 20px;
+    gap: 20px;
 }
 
 
@@ -152,9 +155,6 @@ img {
     color: white;
 }
 
-.projects {
-    padding: 0 20px;
-}
 
 .cards {
     display: grid;
@@ -164,7 +164,6 @@ img {
 }
 
 .projects .card {
-    font-size: 10pt;
     background-color: white;
     padding: 20px;
     border-radius: 12px;
@@ -186,5 +185,32 @@ img {
     right: 20px;
 }
 
+.content-title {
+    font-size: 14pt;
+}
 
+.main-right {
+    display: grid;
+}
+
+.announcement-content, .trending-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 6px #888888;
+}
+
+.announcement .title, .name {
+    font-weight: bold;
+}
+
+.account {
+    display: grid;
+    grid-template-columns: min-content auto;
+    align-items: center;
+}
+
+.account img {
+    max-width: 50px;;
+}
 
