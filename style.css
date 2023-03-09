@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 
 :root {
     --sidebar-color: #0284c7;
@@ -129,7 +131,6 @@ img {
 .user-info .name {
     font-size: 14pt;
     margin: 0;
-    font-weight: bolder;
 }
 
 .user-info p {
@@ -171,4 +172,7 @@ img {
     border-left: 5px solid var(--card-slit);
 }
 
+.card > .title {
+    font-weight: bold;
+}
 
