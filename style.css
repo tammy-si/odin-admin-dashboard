@@ -23,6 +23,9 @@ header {
     grid-column: 2/3;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    padding: 20px;
+    box-shadow: 1px 1px 6px #888888;
+    align-items: center;
 }
 
 .main-content {
@@ -65,4 +68,23 @@ header {
 .sidebar ul {
     margin: 0;
     padding: 0px 1em;
+}
+
+.searchbar {
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+    align-items: center;
+}
+
+.searchbar svg {
+    transform: scale(0.6); 
+}
+
+.searchbar input {
+    width: 80%;
+    margin-left: 10px;
+    border-radius: 12px;
+    background-color: lightgrey;
+    border: none;
+    padding: 5px;
 }
